@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+     height:100px;
+     background-color: aliceblue;
+     display: flex;
+     justify-content:space-between;
+}
+.nav-logo{
+   height:100px;
+   width: 300px;
+   display: flex;
+   align-items: center;
+   padding-left: 10px;
+}
+.logo img{
+        height: px;
+        width: 80%;
+} 
+.list{
+    margin-top: 10px;
+}
+a{
+margin-right: 20px;
+text-decoration: none;
+}
+.nav-search{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.search{
+    height: 30px;
+    width: 300px;
+    border-radius: 30px;
+    border: 3px solid rgb(99, 197, 99);
+}
+/* main-section */
+.main-section{
+    background-image: url("cleaning.jpg");
+    height: 480px;
+    background-size:cover;
+}
+.main-section{
+    display: flex;
+    align-items: center;
+}
+.main-msg{
+    color: white;
+    margin-left: 50px;
+}
+.services{
+    height: 40px;
+    color: rgb(47, 196, 91);
+    background-color:white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.content1{
+    display: flex;
+}
+.sewagetank{
+    /* padding-top: 22px; */
+    margin-top: 25px;
+}
+.sewagetank img{
+    height: 240px;
+    width: 350px;
+}
+.sewagetank h1{
+    color: rgb(70, 201, 70);
+    font-size: 18px;
+    text-align: center;
+    padding-top:  25px;
+}
+.sewagetank p{
+    padding-top: 25px;
+    width: 300px;
+    margin-left: 25px;
+}
+.blockage{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.blockage img{
+    height: 240px;
+    width: 350px;
+}
+.blockage h1{
+    color: rgb(70, 201, 70);
+    font-size: 18px;
+    text-align: center;
+    padding-top:  25px;
+}
+.blockage p{
+    padding-top: 25px;
+    width: 300px;
+    margin-left: 25px;
+}
+.content2{
+    display: flex;
+}
+/* about */
+.aboutsec{
+    height: 200px;
+    background-color:#048242;
+    color: white;
+    /*  */
+}
+.abt{
+    text-align: center;
+    padding-top: 20px;
+}
+.txt{
+    width: 800px;
+    text-align: center;
+    margin-left: 320px;
+    padding-top: 25px;
+}
+.but button{
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(47, 141, 47);
+}
+.aboutsec .but{
+    text-align: center;
+    padding-top: 20px;
+}
+.testimonial{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.testi{
+    height: 40px;
+    color:#288f5b;
+    background-color:white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.test1{
+    border:  1px solid rgb(3, 85, 10);
+    height:300px ;
+    width: 250px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.timg img{
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+    margin-top: -40px;
+}
+.test-cnt{
+    text-align: center;
+    padding-top: 20px;
+}
+.test-cust{
+    text-align: center;
+    padding-top: 40px;
+}
+.test-cust p{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.foot-img{
+    height: 400px;
+    margin-top: 20px;
+    width: 100px;
+}
+.footer-cnt{
+    height: 330px;
+    background-color: #000;
+    color: white;
+    margin-top: -5px;
+    display: flex;
+}
+.box1 {
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.box1 p{
+    width: 400px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.call-logo{
+    display: flex;
+    padding-top: 20px;
+}
+.call-logo p{
+    padding-left: 5px;
+}
+.call-logo img{
+    height: 50px;
+    width: 50px;
+}
+.store img{
+    height: 150px;
+    width: 150px;
+    margin-top: -15px;
+}
+.box2{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.box2  p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.box3{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.box3 img{
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+}
